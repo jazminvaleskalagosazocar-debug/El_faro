@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro | Periódico Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header><img src="logo.jpg" alt="Logotipo El Faro" style="width: 80px; height: auto; border-radius: 8px;">
+     <h1>El Faro</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#deporte">Deporte</a></li>
+            <li><a href="#negocios">Negocios</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- ===================== INICIO ===================== -->
+        <section id="inicio">
+            <h2>Noticias Generales</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Categoría</th>
+                        <th>Resumen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Avances en Tecnología 2026</td>
+                        <td>General</td>
+                        <td>La IA alcanza nuevos hitos en la medicina global.</td>
+                    </tr>
+                    <tr>
+                        <td>Clima: Ola de calor</td>
+                        <td>General</td>
+                        <td>Se registran temperaturas récord en la región.</td>
+                    </tr>
+                    <tr>
+                        <td>Cultura Local</td>
+                        <td>General</td>
+                        <td>Inicia el festival de arte en el centro histórico.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Multimedia del Día</h3>
+
+            <!-- VIDEO -->
+            <article>
+                <h4>Reportaje Especial (Video)</h4>
+                <video width="320" height="240" controls>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </article>
+
+            <!-- AUDIO -->
+            <article>
+                <h4>Podcast Informativo (Audio)</h4>
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el formato de audio.
+                </audio>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- ===================== DEPORTES ===================== -->
+        <section id="deporte">
+            <h2>Sección de Deportes</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Categoría</th>
+                        <th>Contenido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Final de la Copa</td>
+                        <td>Deporte</td>
+                        <td>
+                            El equipo local se corona campeón tras un partido intenso.
+                            <br><br>
+
+                            <!-- VIDEO YOUTUBE -->
+                            <iframe width="400" height="250"
+                                src="https://www.youtube.com/embed/5qeeuPVveFc"
+                                frameborder="0"
+                                allowfullscreen>
+                            </iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Maratón Anual</td>
+                        <td>Deporte</td>
+                        <td>Más de 5,000 corredores participaron en el evento ciudadano.</td>
+                    </tr>
+                    <tr>
+                        <td>Fichajes de Verano</td>
+                        <td>Deporte</td>
+                        <td>Nuevas estrellas se integran a la liga nacional.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- ===================== NEGOCIOS ===================== -->
+        <section id="negocios">
+            <h2>Sección de Negocios</h2>
+
+            <article>
+                <h3>Emprendimiento Verde</h3>
+                <p><strong>Categoría:</strong> Negocios</p>
+                <p>Nuevas startups buscan reducir la huella de carbono con envases biodegradables.</p>
+            </article>
+
+            <article>
+                <h3>Bolsa de Valores</h3>
+                <p><strong>Categoría:</strong> Negocios</p>
+                <p>Las acciones tecnológicas muestran un crecimiento del 10% este trimestre.</p>
+            </article>
+
+            <article>
+                <h3>Nuevas Franquicias</h3>
+                <p><strong>Categoría:</strong> Negocios</p>
+                <p>Empresa de café local se expande al mercado internacional.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Periódico El Faro - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
